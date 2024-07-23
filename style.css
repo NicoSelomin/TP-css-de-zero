@@ -12,6 +12,27 @@ body{
     min-height: 100vh;
 }
 
+header{
+    position: relative;
+}
+
+.back-link{
+    position: absolute;
+    transform: translateY(-50%);
+    color: black;
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1.1em;
+    text-decoration: none;
+    cursor: pointer;
+    top: 10px;
+}
+
+.back-link:hover{
+    background: skyblue;
+}
+
 h1{
     text-transform: uppercase;
     letter-spacing: 3px;
